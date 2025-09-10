@@ -1,0 +1,19 @@
+<div class="flex justify-center mt-16">
+  <form (submit)="submitForm()" action="submit" class="border border-gray-300 shadow-xl rounded-4xl p-7">
+
+    <div class="flex gap-2 items-center mb-4">
+      <label for="nombre" class="w-20 text-right">Nombre:</label>
+      <input [(ngModel)]="nombre" id="nombre" name="nombre" type="text" class="px-2 py-2 border border-b-gray-500 rounded-lg">
+    </div>
+
+    <div class="flex gap-2 items-center mb-4">
+      <label for="direccion" class="w-20 text-right">Dirección:</label>
+      <input [(ngModel)]="direccion" id="direccion" name="direccion" type="text" class="px-2 py-2 border border-b-gray-500 rounded-lg">
+    </div>
+
+    <div>
+      <button type="submit" class="bg-green-500 font-bold px-4 py-2 text-white rounded-lg cursor-pointer hover:bg-green-700 transition duration-200">Guardar</button>
+    </div>
+
+  </form>
+</div>
