@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AltaSucursalComponent } from './alta-sucursal.component';
+import { SucursalesTableComponent } from './sucursales-table.component';
 
-describe('AltaSucursalComponent', () => {
-  let component: AltaSucursalComponent;
-  let fixture: ComponentFixture<AltaSucursalComponent>;
+describe('SucursalesTableComponent', () => {
+  let component: SucursalesTableComponent;
+  let fixture: ComponentFixture<SucursalesTableComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AltaSucursalComponent]
+      imports: [SucursalesTableComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AltaSucursalComponent);
+    fixture = TestBed.createComponent(SucursalesTableComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

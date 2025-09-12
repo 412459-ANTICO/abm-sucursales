@@ -1,0 +1,37 @@
+<div class="mt-6 border border-[#21CECC] p-6 rounded-2xl">
+  <h1 class="font-bold text-[#21CECC] text-2xl">Lista de sucrusales</h1>
+  <table class="w-full mt-6">
+    <thead class="text-left">
+      <tr>
+        <th class="p-3">Nombre</th>
+        <th class="p-3">Responsable</th>
+        <th class="p-3">Email</th>
+        <th class="p-3">Estado</th>
+        <th class="p-3">Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (sucursal of sucursales; track $index){
+        <tr class="border-b border-b-gray-300">
+          <td class="p-3 text-[#21CECC] font-medium">{{sucursal.nombre}}</td>
+          <td class="p-3">{{sucursal.responsable}}</td>
+          <td class="p-3">{{sucursal.email}}</td>
+          <td class="p-3">
+        <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+          {{sucursal.estado}}
+        </span>
+          </td>
+          <td class="p-3 flex space-x-2">
+            <button class="p-2 border border-[#21CECC] rounded hover:bg-teal-200">
+              ✏️
+            </button>
+            <button class="p-2 border border-[#F0713B] rounded hover:bg-red-200">
+              🗑️
+            </button>
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>
+

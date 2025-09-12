@@ -1,0 +1,12 @@
+<div class="flex items-center justify-between border border-[#21CECC] rounded-2xl p-6 shadow-sm min-h-40">
+  <!-- Texto -->
+  <div>
+    <h2 class="text-gray-600 text-sm font-medium">{{ title }}</h2>
+    <p class="text-2xl font-bold text-[#21CECC] mt-1">{{ value }}</p>
+  </div>
+
+  <!-- Ícono -->
+  <div class="p-3 rounded-full bg-[#21CECC]/10 text-[#21CECC]">
+    <ng-content></ng-content> <!-- por si querés pasar un ícono con <ng-content> -->
+  </div>
+</div>

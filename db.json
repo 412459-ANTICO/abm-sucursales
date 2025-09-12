@@ -3,17 +3,26 @@
     {
       "id": "1",
       "nombre": "Sucursal Av. Colón",
-      "direccion": "Av. Colón 5200"
+      "direccion": "Av. Colón 5200",
+      "responsable": "Juan Dominguez",
+      "email": "email.email@gmail.com",
+      "estado": "Activa"
     },
     {
       "id": "2",
       "nombre": "Sucursal Av. Gral Paz",
-      "direccion": "Av. Gral Paz 159"
+      "direccion": "Av. Gral Paz 159",
+      "responsable": "Juan Dominguez",
+      "email": "email.email@gmail.com",
+      "estado": "Activa"
     },
     {
       "id": "b52d",
       "nombre": "Sucursal Santa Isabel",
-      "direccion": "Alto del tala 5335"
+      "direccion": "Alto del tala 5335",
+      "responsable": "Juan Dominguez",
+      "email": "email.email@gmail.com",
+      "estado": "Activa"
     }
   ]
 }
